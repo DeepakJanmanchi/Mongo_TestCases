@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
-@PropertySources({
-        @PropertySource(value = "classpath:application-mongo.properties"),
-        @PropertySource(value = "classpath:application.properties")
-})
+//@//PropertySources({
+        //@PropertySource(value = "classpath:application-mongo.properties"),
+        //@PropertySource(value = "classpath:application.properties")
+//})
 @RestController
 @RequestMapping(value="api/v1")
 public class TrackController {
